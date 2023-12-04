@@ -21,3 +21,12 @@ b. Install this pcdet library and its dependent libraries by running the followi
 ```shell
 python setup.py develop
 ```
+
+## Data Preparation
+Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
+
+## Main Results
+
+
+## Acknowledgement
+We thank the authors for the multiple great open-sourced repos, including [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [PMPNet](https://github.com/diviswen/PMP-Net).
