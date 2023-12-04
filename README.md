@@ -35,15 +35,15 @@ Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/Open
 |                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
 | PV-RCNN++ | 82.36 | 71.42 | 67.71 | - | 
-| PV-RCNN++ with OKGR| 82.36 | 71.42 | 67.71 | - | 
+| PV-RCNN++ with OKGR| 82.36 | 71.42 | 67.71 |  | 
 
 ## Main Results on Waymo Open Dataset
 |                                             | Difficulty | Vehicle | Pedestrian | Cyclist | download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|:---------:|
 | PV-RCNN++ | LEVEL-1 | 77.82 | 77.99 | 71.80 | - | 
-| PV-RCNN++ with OKGR | LEVEL-1 | 78.14 | 79.66 | 74.13 | - | 
-| PV-RCNN++ | LEVEL-1 | 69.07 | 69.92 | 69.31 | - | 
-| PV-RCNN++ with OKGR | LEVEL-1 | 69.46 | 71.70 | 71.57 | - | 
+| PV-RCNN++ with OKGR | LEVEL-1 | 78.14 | 79.66 | 74.13 |  | 
+| PV-RCNN++ | LEVEL-2 | 69.07 | 69.92 | 69.31 | - | 
+| PV-RCNN++ with OKGR | LEVEL-2 | 69.46 | 71.70 | 71.57 |  | 
 
 ## Acknowledgement
 We thank the authors for the multiple great open-sourced repos, including [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [PMPNet](https://github.com/diviswen/PMP-Net).
