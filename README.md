@@ -10,6 +10,6 @@ NOTE: Please re-install pcdet v0.5 by running python setup.py develop even if yo
 a. Install the dependent libraries as follows: Install the SparseConv library, we use the implementation from [Spconv](https://github.com/traveller59/spconv).
 
 b. Install this pcdet library and its dependent libraries by running the following command:
-'''shell
+```shell
 python setup.py develop
-'''
+```
