@@ -35,7 +35,7 @@ Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/Open
 |                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
 | PV-RCNN++ | 82.36 | 71.42 | 67.71 | - | 
-| PV-RCNN++ with OKGR| 82.36 | 71.42 | 67.71 |  | 
+| PV-RCNN++ with OKGR| 85.89 | 73.31 | 69.51 |  | 
 
 ## Main Results on Waymo Open Dataset
 |                                             | Difficulty | Vehicle | Pedestrian | Cyclist | download | 
