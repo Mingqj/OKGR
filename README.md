@@ -39,7 +39,7 @@ Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/Open
 
 ## Main Results on Waymo Open Dataset
 |                                             | Difficulty | Vehicle | Pedestrian | Cyclist | download | 
-|---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
+|---------------------------------------------|:-------:|:-------:|:-------:|:---------:|:---------:|
 | PV-RCNN++ | LEVEL-1 | 77.82 | 77.99 | 71.80 | - | 
 | PV-RCNN++ with OKGR | LEVEL-1 | 78.14 | 79.66 | 74.13 | - | 
 | PV-RCNN++ | LEVEL-1 | 69.07 | 69.92 | 69.31 | - | 
