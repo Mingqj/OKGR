@@ -22,6 +22,12 @@ b. Install this pcdet library and its dependent libraries by running the followi
 python setup.py develop
 ```
 
+c. Install the PMPNet library and build pyTorch extensions:
+```shell
+cd ./pcdet/models/backbones_3d/Chamfer3D/
+python setup.py install
+```
+
 ## Data Preparation
 Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
