@@ -13,7 +13,9 @@ Install the SparseConv library, we use the implementation from [Spconv](https://
 
 Install the dependent python libraries: 
 
-[comment]: <> (pip install -r requirements.txt )
+```shell
+pip install -r requirements.txt
+```
 
 b. Install this pcdet library and its dependent libraries by running the following command:
 ```shell
