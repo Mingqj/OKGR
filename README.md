@@ -33,7 +33,7 @@ Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/Open
 
 ## Main Results
 |                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
-|---------------------------------------------|:-------:|:-------:|:-------:|:---------:| 82.36 71.42 67.71
+|---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
 | [PV-RCNN++] | 82.36 | 71.42 | 67.71 | - | 
 | [PV-RCNN++ with OKGR](tools/cfgs/kitti_models/pvrcnn_pp.yaml) | 82.36 | 71.42 | 67.71 | - | 
 
