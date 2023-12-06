@@ -32,7 +32,7 @@ python setup.py install
 Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 ## Training and Testing
-You could optionally add extra command line parameters --batch_size ${BATCH_SIZE} to specify your preferred parameters.
+You could optionally add extra command line parameters '--batch_size ${BATCH_SIZE}', '${NUM_GPUS}' to specify your preferred parameters.
 
 * Train with multiple GPUs:
 ```shell
@@ -47,8 +47,7 @@ python train.py --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml
 
 * Test with multiple GPUs:
 ```shell
-bash scripts/dist_test.sh ${NUM_GPUS} \
-    --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
+bash scripts/dist_test.sh ${NUM_GPUS} --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
 
 * Test with a single GPU:
