@@ -32,7 +32,7 @@ python setup.py install
 Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 ## Training and Testing
-You could optionally add extra command line parameters '--batch_size ${BATCH_SIZE}', '${NUM_GPUS}' to specify your preferred parameters.
+You could optionally add extra command line parameters `--batch_size ${BATCH_SIZE}`, `${NUM_GPUS}` to specify your preferred parameters.
 
 * Train with multiple GPUs:
 ```shell
