@@ -55,11 +55,11 @@ bash scripts/dist_test.sh ${NUM_GPUS} --cfg_file cfgs/kitti_models/pv_rcnn_pp.ya
 python test.py --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
 
-## Main Results on KITTI
+## Main Results on KITTI (Mod.)
 |                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
-| PV-RCNN++ | 82.36 | 71.42 | 67.71 | - | 
-| PV-RCNN++ with OKGR| 85.89 | 73.31 | 69.51 | [Model](https://pan.baidu.com/s/1ZOxcQ8e_-Iv4U4K8m0rPxA) [0ajr] | 
+| PV-RCNN++ | 84.32 | 56.73 | 73.22 | - | 
+| PV-RCNN++ with OKGR| 84.75 | 59.67 | 75.51 | [Model](https://pan.baidu.com/s/1ZOxcQ8e_-Iv4U4K8m0rPxA) [0ajr] | 
 
 ## Main Results on Waymo Open Dataset
 |                                             | Difficulty | Vehicle | Pedestrian | Cyclist | download | 
