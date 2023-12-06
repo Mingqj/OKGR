@@ -31,6 +31,31 @@ python setup.py install
 ## Data Preparation
 Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
+## Training and Testing
+You could optionally add extra command line parameters --batch_size ${BATCH_SIZE} to specify your preferred parameters.
+
+* Train with multiple GPUs:
+```shell
+cd tools
+bash scripts/dist_train.sh ${NUM_GPUS} --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml
+```
+
+* Train with a single GPU:
+```shell
+python train.py --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml
+```
+
+* Test with multiple GPUs:
+```shell
+bash scripts/dist_test.sh ${NUM_GPUS} \
+    --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
+```
+
+* Test with a single GPU:
+```shell
+python test.py --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
+```
+
 ## Main Results on KITTI
 |                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
