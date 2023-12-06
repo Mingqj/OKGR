@@ -56,13 +56,13 @@ python test.py --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH
 ```
 
 ## Main Results on KITTI (Mod.)
-|                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
+|                                             | Car@R40 | Pedestrian@R40 | Cyclist@R40  | Download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|
 | PV-RCNN++ | 84.32 | 56.73 | 73.22 | - | 
 | PV-RCNN++ with OKGR| 84.75 | 59.67 | 75.51 | [Model](https://pan.baidu.com/s/1ZOxcQ8e_-Iv4U4K8m0rPxA) [0ajr] | 
 
 ## Main Results on Waymo Open Dataset
-|                                             | Difficulty | Vehicle | Pedestrian | Cyclist | download | 
+|                                             | Difficulty | Vehicle | Pedestrian | Cyclist | Download | 
 |---------------------------------------------|:-------:|:-------:|:-------:|:---------:|:---------:|
 | PV-RCNN++ | LEVEL-1 | 77.82 | 77.99 | 71.80 | - | 
 | PV-RCNN++ with OKGR | LEVEL-1 | 78.14 | 79.66 | 74.13 | [Model](https://pan.baidu.com/s/10fplbAgeQp0PdXg5HRtoBQ) [xvoe] | 
