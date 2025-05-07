@@ -1,4 +1,17 @@
-# [PRCV 2023] OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection
+# [PRCV 2023] OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection (best student paper)
+
+<div align="center">
+
+[Mingqian Ji](https://github.com/Mingqj) </sup>,
+[Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN) </sup>,
+[Shanshan Zhang](https://shanshanzhang.github.io/) ✉</sup>
+
+Nanjing University of Science and Technology
+
+</div>
+
+## About
+
 This is the official of [OKGR](https://github.com/Mingqj/OKGR/). (OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection). This code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet), some codes are from [PMPNet](https://github.com/diviswen/PMP-Net).
 
 Supplemental material and code for 'OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection'.
@@ -63,3 +76,16 @@ python test.py --cfg_file cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH
 
 ## Acknowledgement
 We thank the authors for the multiple great open-sourced repos, including [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [PMPNet](https://github.com/diviswen/PMP-Net).
+
+## Citation
+If you use OKGR in your work, please use the following BibTeX entries:
+```bibtex
+@inproceedings{ji2023okgr,
+  title={OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection},
+  author={Ji, Mingqian and Yang, Jian and Zhang, Shanshan},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={3--15},
+  year={2023},
+  organization={Springer}
+}
+```
